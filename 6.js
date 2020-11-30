@@ -5,11 +5,11 @@ var cylinder = {
     height: 20,
     volume: function() {
         var volume = 2 * Math.PI * (this.radius ** 2) * this.height;
-        return(volume);
+        return volume;
     },
     square: function() {
         var square = 2 * Math.PI * this.radius * (this.height + this.radius);
-        return(square);
+        return square;
     }
 }
 
@@ -66,7 +66,7 @@ function isCharPresent (string, symbol) {
         }
     }
 
-    return(result);
+    return result;
 }
 
 console.log(isCharPresent('Ivan : Petr - 2 : 10', '0'));
@@ -86,7 +86,7 @@ function charIndexOf (string, symbol) {
         }
     }
 
-    return(result);
+    return result;
 }
 
 console.log(charIndexOf('Ivan : Petr - 2 : 10', 'o'));
